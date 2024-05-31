@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 export default function Footer() {
   return (
-    <footer className='lg:px-[102px]   font-ppPlus max-w-[1440px] mx-auto my-[110px] 
+    <footer className='lg:px-[102px]   font-ppPlus max-w-[1440px] mx-auto mt-[110px] mb-[60px] 
     px-[21px] gap-8 flex flex-col lg:flex-row  justify-between w-full items-center relative'>
-        <div className='lg:space-y-[37px]  space-y-[5px] lg:max-w-[50%] text-center relative w-full px-[21px]'>
-            <h1 className='lg:leading-[111.37px] lg:text-[97px] text-[65px] text-black font-bold text-[#1C0D0E]'>
+        <div className='lg:space-y-[37px]  lg:max-w-[80%] space-y-[15px] lg:max-w-[50%] text-center relative w-full px-[21px]'>
+            <h1 className='lg:leading-[111.37px]  text-center lg:text-[97px] mb-6 text-[65px] text-black font-bold text-[#1C0D0E]'>
              Socials
             </h1>
-            <div className='lg:space-y-3 arial lg:max-w-[80%]  w-full  flex flex-col gap-5'>
+            <div className='lg:space-y-3 arial  w-full  flex flex-col gap-5'>
                 <button className='text-[24px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E]  px-10 py-5 text-white'>X(Twitter)</button>
                 <button className='text-[24px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E] px-10 py-5 text-white'>Telegram</button>
             </div>

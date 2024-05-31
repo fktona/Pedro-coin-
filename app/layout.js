@@ -11,6 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel='shortcut icon ' href='/about.svg' type='image/x-icon' />
+      
       <body className={`${ppArial.variable} ${ppPlus.variable}`}>{children}</body>
     </html>
   );
