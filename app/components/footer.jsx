@@ -10,7 +10,7 @@ export default function Footer() {
              Socials
             </h1>
             <div className='lg:space-y-3 arial  w-full  flex flex-col gap-5'>
-                <button className='md:text-[24px] text-[18.2px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E]  px-10 py-5 text-white'><a href="https://x.com/SOLPedroPedro1a" target="_blank">X(Twitter)</a></button>
+                <button className='md:text-[24px] text-[18.2px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E]  px-10 py-5 text-white'><a href="https://x.com/SOLPedroPedro" target="_blank">X(Twitter)</a></button>
                 <button className='md:text-[24px] text-[18.2px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E] px-10 py-5 text-white'>Telegram</button>
             </div>
         </div>
