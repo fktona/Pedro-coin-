@@ -24,13 +24,12 @@ export default function Play() {
 
   return (
     <div className='mx-auto max-w-[1440px] w-full relative'>
-      <div className='relative mx-auto py-[60px]
-       my-16 w-fit bg-black flex items-center
-        justify-center rounded-[145px] lg:min-w-[70%] min-w-[90%] max-h-[200px]
-         lg:max-h-[622px] lg:min-h-[622px] lg:rounded-[311px]
-          lg:h-[40vh] h-[60vh]'>
+      <div className='relative mx-auto 
+       my-16 w-fit bg-black flex items-center overflow-hidden
+        justify-center rounded-full lg:min-w-[70%] min-w-[90%] max-h-[200px]
+        aspect-square'>
         <ReactPlayer
-          className='z-50 absolute rotate w-full'
+          className='z-50 absolute  w-full'
           url={'/play.mp4'}
           width='100%'
           height='100%'
