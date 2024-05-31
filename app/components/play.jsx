@@ -2,6 +2,7 @@
 import React from 'react';
 import { useEffect, useState, useRef } from 'react';
 import ReactPlayer from 'react-player';
+import Image from 'next/Image'
 
 export default function Play() {
 
@@ -23,14 +24,21 @@ export default function Play() {
   };
 
   return (
-    <div className='mx-auto max-w-[1440px] w-full relative'>
+    <div className='mx-auto relative max-w-[1440px] w-full relative'>
+        <div className="relative w-full lg:px-[100px] px-8 flex items-center justify-center">
+        <p className="font-ppPlus font-bold flex items-center gap-2">Click <br/> to play</p>
+        <Image alt="arrow" src="/arrow.svg" width={50} height={50} />
+       <p className="font-ppPlus font-bold flex items-center gap-2">Click <br/>HERE</p>
+        <Image alt="arrow" src="/arrow2.svg" width={50} height={50} />
+        </div>
       <div className='relative mx-auto 
        my-16 w-fit bg-black flex items-center overflow-hidden
         justify-center rounded-full lg:min-w-[70%] min-w-[90%] 
         aspect-square'>
+          
         <ReactPlayer
           className='z-50 absolute w-full rounded-full aspect-square'
-          url={'/play.mp4'}
+          url={'/pedro.mp4'}
           width='100%'
           height='100%'
           playing={playVideo}
