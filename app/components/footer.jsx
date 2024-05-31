@@ -1,0 +1,26 @@
+import React from 'react'
+import Image from 'next/image'
+
+export default function Footer() {
+  return (
+    <footer className='lg:px-[102px]   font-ppPlus max-w-[1440px] mx-auto my-[110px] 
+    px-[21px] gap-8 flex flex-col lg:flex-row  justify-between w-full items-center relative'>
+        <div className='lg:space-y-[37px]  space-y-[5px] lg:max-w-[50%] text-center relative w-full px-[21px]'>
+            <h1 className='lg:leading-[111.37px] lg:text-[97px] text-[65px] text-black font-bold text-[#1C0D0E]'>
+             Socials
+            </h1>
+            <div className='lg:space-y-3 arial lg:max-w-[80%]  w-full  flex flex-col gap-5'>
+                <button className='text-[24px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E]  px-10 py-5 text-white'>X(Twitter)</button>
+                <button className='text-[24px] hover:bg-[#1C0D0E]/85 rounded-[15px] bg-[#1C0D0E] px-10 py-5 text-white'>Telegram</button>
+            </div>
+        </div>
+        <div className='  relative lg:mt-[80px] right-0'>
+
+            <Image alt='footer' src={'/footer.svg'} width={500} height={900} className='w-full relative' />
+            <p className='lg:text-[50px] text-[30px] px-8 pb-6 font-bold text-white absolute  lg:pb-[80px] 
+             bottom-0 right-0'>Click da god <br/> dem links</p>
+        </div>
+
+    </footer>
+  )
+}
