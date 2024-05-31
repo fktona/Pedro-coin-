@@ -9,8 +9,8 @@ export default function Hero() {
         <div className='lg:max-w-[50%]  space-y-8 mt-12  z-50 relative'>
         <h1 className='font-bold lg:text-[88.7px] text-[45px] '>$PEPEPEDRO</h1>
         <p className='lg:text-[34px] md:text-[24px] text-[17.5px]'>
-        Lorem ipsum dolor sit amet, consectetuer 
-        adipiscing elit. Aenean commodo ligula eget dolor
+        He is the degen love child of two poppas, Pepe and Pedro.
+          His song will make you want to go live on the moon
         </p>
         <button className='bg-[#c3564d] hover:bg-[#c3564d]/75 arial  md:text-[24px] text-[17.5px] px-5 py-3 lg:px-[40px] py-[18px]
           text-white rounded-[42px]'>Buy on Dexscreener</button>
