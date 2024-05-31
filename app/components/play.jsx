@@ -26,7 +26,7 @@ export default function Play() {
     <div className='mx-auto max-w-[1440px] w-full relative'>
       <div className='relative mx-auto 
        my-16 w-fit bg-black flex items-center overflow-hidden
-        justify-center rounded-full lg:min-w-[70%] min-w-[90%] max-h-[200px]
+        justify-center rounded-full lg:min-w-[70%] min-w-[90%] 
         aspect-square'>
         <ReactPlayer
           className='z-50 absolute  w-full rounded-full aspect-square'
