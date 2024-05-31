@@ -19,8 +19,8 @@ Abt() {
             </h1>
             <p className='lg:text-[37px] text-[17.5px] font-bold text-white  text-center'>
 
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
+          You’ll be hearing him all day as word spreads to buy PepePedro.
+              If this coin doesn’t explode your ear drums will!
             </p>
 
             <div className='flex arial justify-center gap-6 lg:gap-10'>
