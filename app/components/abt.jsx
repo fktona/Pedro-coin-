@@ -17,16 +17,17 @@ Abt() {
             <h1 className='lg:text-[96px] font-bold text-white text-center text-[40px] lg:leading-[111px]'>
             ABOUT $PEPEPEDRO
             </h1>
-            <p className='lg:text-[37px] text-[24px] font-bold text-white  text-center'>
+            <p className='lg:text-[37px] text-[17.5px] font-bold text-white  text-center'>
 
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
              Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes
             </p>
 
             <div className='flex arial justify-center gap-6 lg:gap-10'>
-                <button className='rounded-[42px] lg:py-[18px] px-[24px] py-3 lg:px-[40px] text-[24px] 
+                <button className='rounded-[42px] lg:py-[18px] px-[24px] py-3 lg:px-[40px] lg:text-[24px]  text-[17.5px]
                 bg-[#FFF9D9] hover:bg-[#FFF9D9]/75'>Dextool</button>
-                <button className='rounded-[42px] lg:py-[18px] px-[24px] py-3 lg:px-[40px] text-[24px] 
+                <button className='rounded-[42px] lg:py-[18px] px-[24px] py-3 lg:px-[40px] lg:text-[24px] 
+                text-[17.5px]
                  bg-[#FFDA19] hover:bg-[#FFDA19]/75'>Dexscreener</button>
             </div>
 
