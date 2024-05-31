@@ -26,11 +26,11 @@ export default function Play() {
   return (
     <div className='mx-auto relative max-w-[1440px] w-full relative'>
         <div className="relative w-full lg:px-[100px] px-8 flex items-center justify-between text-[30px] lg:text-[50px] mt-8">
-        <p className="font-ppPlus font-bold flex items-center gap-4">Click <br/> to play <Image alt="arrow" src="/arrow.svg" width={80} height={80} /></p>
-       <p className="font-ppPlus font-bold flex items-center w-full hidden lg:block gap-4"><Image alt="arrow" src="/arrow2.svg" width={80} height={80} />
-   Click <br/>HERE 
-               </p>
-        </div>
+        <div className="font-ppPlus font-bold flex items-center gap-4"><span>Click <br/> to play </span><Image alt="arrow" src="/arrow.svg" width={80} height={80} /></div>
+       <div className="font-ppPlus font-bold flex items-center w-full hidden lg:block gap-4"><Image alt="arrow" src="/arrow2.svg" width={80} height={80} />
+   <span>Click <br/>HERE</span>
+       </div>
+       </div>
       <div className='relative mx-auto 
        my-16 w-fit bg-black flex items-center overflow-hidden
         justify-center rounded-full lg:min-w-[70%] min-w-[90%] 
