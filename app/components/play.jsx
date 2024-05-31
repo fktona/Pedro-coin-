@@ -29,8 +29,8 @@ export default function Play() {
         justify-center rounded-full lg:min-w-[70%] min-w-[90%] 
         aspect-square'>
         <ReactPlayer
-          className='z-50 absolute  w-full rounded-full aspect-square'
-          url={'https://drive.google.com/file/d/1GlRxS15hVd0DQB5Cj27WlmKEon22eVWt/view?usp=drivesdk'}
+          className='z-50 absolute bg-white w-full rounded-full aspect-square'
+          url={'/play.mp4'}
           width='100%'
           height='100%'
           playing={playVideo}
