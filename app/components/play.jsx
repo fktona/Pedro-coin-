@@ -29,7 +29,7 @@ export default function Play() {
         justify-center rounded-full lg:min-w-[70%] min-w-[90%] max-h-[200px]
         aspect-square'>
         <ReactPlayer
-          className='z-50 absolute  w-full'
+          className='z-50 absolute  w-full rounded-full aspect-square'
           url={'/play.mp4'}
           width='100%'
           height='100%'
