@@ -17,7 +17,7 @@ export default function Footer() {
         <div className='  relative lg:mt-[80px] right-0'>
 
             <Image alt='footer' src={'/footer.svg'} width={500} height={900} className='w-full relative' />
-            <p className='lg:text-[50px] text-[30px] px-8 pb-6 font-bold text-white absolute  lg:pb-[80px] 
+            <p className='lg:text-[50px] text-[24px] px-8 pb-6 font-bold text-white absolute  lg:pb-[80px] 
              bottom-0 right-0'>Join the socials now <br/>
 to escape this beat</p>
         </div>
