@@ -30,7 +30,7 @@ export default function Play() {
         aspect-square'>
         <ReactPlayer
           className='z-50 absolute  w-full rounded-full aspect-square'
-          url={'/https://drive.google.com/file/d/1GlRxS15hVd0DQB5Cj27WlmKEon22eVWt/view?usp=drivesdk'}
+          url={'https://drive.google.com/file/d/1GlRxS15hVd0DQB5Cj27WlmKEon22eVWt/view?usp=drivesdk'}
           width='100%'
           height='100%'
           playing={playVideo}
