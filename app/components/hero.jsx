@@ -13,7 +13,7 @@ export default function Hero() {
           His song will make you want to go live on the moon
         </p>
         <button className='bg-[#c3564d] hover:bg-[#c3564d]/75 arial  md:text-[24px] text-[17.5px] px-5 py-3 lg:px-[40px] py-[18px]
-          text-white rounded-[42px]'>Buy on Dexscreener</button>
+          text-white rounded-[42px]'><a href="https://dexscreener.com/solana/6VBp6ZB8qiJE4ciq3mEnkbLHegixFNAv8NAqAPEoQcQs"> Buy on Dexscreener</a></button>
         </div>
         <div className='lg:absolute -bottom-2  lg:block   lg:max-w-[65%] right-0 max-h-[80%] mt-12 relative'>
             <Image alt='pedro'  src={'/hero.svg'} width={500} height={500} className='relative w-full h-full bottom-0'/>
