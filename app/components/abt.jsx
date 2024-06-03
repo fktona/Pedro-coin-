@@ -25,7 +25,7 @@ Abt() {
 
             <div className='flex arial justify-center gap-6 lg:gap-10'>
                 <button className='rounded-[42px] lg:py-[18px] px-[24px] py-3 lg:px-[40px] lg:text-[24px]  text-[17.5px]
-                bg-[#FFF9D9] hover:bg-[#FFF9D9]/75'>Dextool</button>
+                bg-[#FFF9D9] hover:bg-[#FFF9D9]/75'><a href="https://www.dextools.io/app/en/solana/pair-explorer/6VBp6ZB8qiJE4ciq3mEnkbLHegixFNAv8NAqAPEoQcQs?t=1717434683270" target="_blank">Dextool</a></button>
                 <button className='rounded-[42px] lg:py-[18px] px-[24px] py-3 lg:px-[40px] lg:text-[24px] 
                 text-[17.5px]
                  bg-[#FFDA19] hover:bg-[#FFDA19]/75'><a href="https://dexscreener.com/solana/6VBp6ZB8qiJE4ciq3mEnkbLHegixFNAv8NAqAPEoQcQs" target="_blank">Dexscreener</a></button>
